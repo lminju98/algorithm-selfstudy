@@ -2,22 +2,26 @@ package basic;
 
 import java.util.Scanner;
 
+
+/**
+ *
+ */
+
 public class Year {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int year = scanner.nextInt();
+        int y = scanner.nextInt();
 
-        int getYear = getYear(year);
+        int getYear = getYear(y);
         System.out.println(getYear);
     }
 
-    public static int getYear(int year){
+    public static int getYear(int y){
 
-        if (year == year ){
-            year = (year-543);
+        if (y >=1000 && y<=3000){
+            y= (y-543);
         }
-
-        return year;
+        return y;
     }
 }
