@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  */
 
-public class Year {
+public class Operation8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -3,15 +3,15 @@ package basic;
 import java.util.Scanner;
 
 /**
- * A-B
+ * A+B
  */
-public class Minus {
+public class Operation2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        System.out.println(a - b);
+        System.out.println(a + b);
     }
 }
