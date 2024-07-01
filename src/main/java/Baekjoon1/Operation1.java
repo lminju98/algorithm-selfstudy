@@ -1,4 +1,4 @@
-package basic;
+package Baekjoon1;
 
 /**
  * Hello World
@@ -8,6 +8,7 @@ package basic;
 public class Operation1 {
 
     public static void main(String[] args) {
+
         System.out.println("Hello World!");
     }
 }

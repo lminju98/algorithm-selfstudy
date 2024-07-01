@@ -1,4 +1,4 @@
-package basic;
+package Baekjoon1;
 
 public class Operations12 {
     public static void main(String[] args) {
