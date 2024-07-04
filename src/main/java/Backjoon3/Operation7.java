@@ -2,17 +2,16 @@ package Backjoon3;
 
 import java.util.Scanner;
 
-public class Operation2 {
+public class Operation7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int t = scanner.nextInt();
         int[] getT = new int[t];
-
         getT(scanner,getT);
 
-        for (int k:getT){
-            System.out.println(k);
+        for (int i = 0; i<getT.length; i++){
+            System.out.println("Case #"+(i+1)+": "+getT[i]);
         }
 
     }
