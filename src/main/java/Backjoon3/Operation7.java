@@ -15,13 +15,12 @@ public class Operation7 {
         }
 
     }
-    public static int[] getT(Scanner scanner,int[]getT){
+    public static void getT(Scanner scanner, int[]getT){
 
         for (int i = 0; i<getT.length; i++){
             int a = scanner.nextInt();
             int b = scanner.nextInt();
             getT[i] = a+b;
         }
-        return getT;
     }
 }
