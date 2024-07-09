@@ -1,8 +1,8 @@
-package Backjoon3;
+package Beakjoon3;
 
 import java.util.Scanner;
 
-public class Operation10 {
+public class Operation9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,11 +15,8 @@ public class Operation10 {
     }
     public static String getStar(int a) {
         String getStar = "";
-        for (int i = a; i>0; i--) {
-            for (int n = 1; n < i; n++) {
-                getStar += " ";
-            }
-            for (int x = a; x > i-1; x--) {
+        for (int i = 1; i <=a; i++) {
+            for (int n = 0; n < i; n++) {
                 getStar += "*";
             }
             getStar += "\n";
