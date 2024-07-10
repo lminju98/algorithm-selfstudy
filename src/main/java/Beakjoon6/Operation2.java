@@ -16,22 +16,13 @@ public class Operation2 {
         }
 
     }public static int[] output(int[] chess) {
-        int K = 1;
-        int L = 2;
-        int P = 8;
         for (int i = 0; i<chess.length; i++) {
-            if (i==0){
-                chess[0]=K-chess[0];
-            }else if (i==1){
-                chess[1]=K-chess[1];
-            }else if (i==2){
-                chess[2]=L-chess[2];
-            }else if (i==3){
-                chess[3]=L-chess[3];
-            }else if (i==4){
-                chess[4]=L-chess[4];
-            }else if (i==5){
-                chess[5]=P-chess[5];
+            if (i<2){
+                chess[i]=1-chess[i];
+            } else if (i>=2 && i<5){
+                chess[i]=2-chess[i];
+            } else {
+                chess[i]=8-chess[i];
             }
         }
      return chess;
