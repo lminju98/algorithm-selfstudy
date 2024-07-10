@@ -19,7 +19,7 @@ public class Operation2 {
         for (int i = 0; i<chess.length; i++) {
             if (i<2){
                 chess[i]=1-chess[i];
-            } else if (i>=2 && i<5){
+            } else if (i<5){
                 chess[i]=2-chess[i];
             } else {
                 chess[i]=8-chess[i];
