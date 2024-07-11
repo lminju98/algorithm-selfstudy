@@ -1,12 +1,15 @@
-package Beakjoon5;
+package Baekjoon5;
 
 import java.util.Scanner;
 
-public class Operation2 {
+public class Operation4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String a = scanner.nextLine();
-        System.out.println(a.length());
+        char a = scanner.next().charAt(0);
+
+        System.out.println((int)a);
+
+
     }
 }
